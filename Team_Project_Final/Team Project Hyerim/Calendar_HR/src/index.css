@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'react-big-calendar/lib/sass/styles';
+@import 'react-big-calendar/lib/addons/dragAndDrop/styles';
+
+
+
+div.rbc-day-bg.rbc-today {
+    background-color: blueviolet;
+}
+
+div.rbc-day-bg.rbc-off-range-bg {
+    background-color: rgb(210, 205, 205);
+}
+div.rbc-day-bg {
+    background-color: rgb(255, 255, 255);
+}
