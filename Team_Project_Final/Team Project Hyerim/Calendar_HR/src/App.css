@@ -4,17 +4,32 @@
   position: fixed;
   top: 0;
   width: 100%;
-  height: 50px;
+  height: 20px;
   background-color: #1A1A40;
   color: white;
   text-align: center;
 
 }
+.upper-calendar{
+  margin-top: 100px;
+  padding-top: 200px;
+  padding-bottom:200px;
+}
+
+.calendar-wrapper-margin{
+padding-top:200px;
+padding-bottom:200px;
+}
+
+.todo-stat-margin{
+  padding-top: 50px;
+  padding-bottom:50px;
+}
 
 .menu {
-  color: #fff;
-  background-color: #5995DA;  /* Blue */
-  padding: 20px 0;
+  color: #1A1A40;
+  background-color: #fff;  
+  padding: 5px 0;
   display: flex;
   justify-content: space-around;
 }
@@ -48,7 +63,7 @@
 }
 
 body {
-  background: #8758ff;
+  background: #fff;
   display: flex;
   flex-direction: column;
   justify-content: center;

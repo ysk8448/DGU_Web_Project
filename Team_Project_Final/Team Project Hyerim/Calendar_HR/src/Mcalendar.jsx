@@ -38,7 +38,7 @@ const Mcalendar = () => {
   return (
     <div>
         <h1 style={{fontSize: "20pt", fontWeight: "bold"}}>캘린더</h1>
-        <button style={{fontSize: "15pt"}}>일정 추가</button>
+        <h2 style={{fontSize: "15pt"}}>일정 추가</h2>
         <div>
         <input type="text" placeholder='일정 이름' style={{width: "20%", marginRight: "10px"
             }}
