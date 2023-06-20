@@ -14,6 +14,7 @@ const events = [
         title: "",
         start: new Date(),
         end : "",
+        color: "purple"
     },
 ]
 
@@ -40,7 +41,14 @@ const Mcalendar = () => {
         <h1 style={{fontSize: "20pt", fontWeight: "bold"}}>캘린더</h1>
         <h2 style={{fontSize: "15pt"}}>일정 추가</h2>
         <div>
-        <input type="text" placeholder='일정 이름' style={{width: "20%", marginRight: "10px"
+        <input
+            type="text"
+            placeholder='일정 이름'
+            style={{
+                width: "20%",
+                marginRight: "10px",
+                border: "1px solid grey",
+                borderRadius: "3px"
             }}
             value={newEvent.title} onChange={(e) => setNewEvent({...newEvent, title: e.target.value})}
         />
@@ -51,7 +59,14 @@ const Mcalendar = () => {
         <DatePicker placeholderText='종료일'
             selected={newEvent.end} onChange={(end) => setNewEvent({...newEvent, end})}/>
 
-        <button style={{marginTop: "10px"}} onClick={handleAddEvent}>
+        <button style={{
+            marginTop: "10px", 
+            border: "1px solid grey",
+            borderRadius: "50px", 
+            padding: "10px"
+        }} 
+        onClick={handleAddEvent}
+        >
             추가
         </button>
 
