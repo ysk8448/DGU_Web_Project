@@ -1,10 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 @import 'react-big-calendar/lib/sass/styles';
 @import 'react-big-calendar/lib/addons/dragAndDrop/styles';
+@import 'react-datepicker/dist/react-datepicker.css';
 
+
+.react-datepicker {
+    position:relative;
+    z-index: 99;
+    opacity: 100;
+    background-color: white;
+
+}
+
+
+.rbc-month-view {
+    position:relative;
+    z-index: 0;
+}
+
+.rbc-event{
+    background-color: blueviolet
+}
 
 
 div.rbc-day-bg.rbc-today {
